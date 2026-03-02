@@ -1,0 +1,41 @@
+
+body{
+font-family: Arial;
+background: linear-gradient(120deg,#5f7cff,#9f6bff);
+height:100vh;
+display:flex;
+justify-content:center;
+align-items:center;
+}
+
+.container{
+background:white;
+padding:30px;
+border-radius:10px;
+width:420px;
+text-align:center;
+box-shadow:0 10px 20px rgba(0,0,0,0.2);
+}
+
+input{
+width:70%;
+padding:8px;
+}
+
+button{
+padding:8px 15px;
+background:#5f7cff;
+color:white;
+border:none;
+}
+
+table{
+width:100%;
+margin-top:15px;
+border-collapse:collapse;
+}
+
+th,td{
+border:1px solid #ccc;
+padding:6px;
+}

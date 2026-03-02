@@ -1,0 +1,33 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Natural Language to SQL</title>
+<link rel="stylesheet" href="{{ url_for('static',filename='style.css') }}">
+</head>
+
+<body>
+
+<div class="container">
+
+<h2>Natural Language to SQL</h2>
+
+<form method="POST">
+<input type="text" name="query" placeholder="Write your Query">
+<button type="submit">Submit</button>
+</form>
+
+{% if sql %}
+<p><b>Generated SQL:</b> {{sql}}</p>
+{% endif %}
+
+{% if table %}
+<div class="result">
+{{table | safe}}
+</div>
+{% endif %}
+
+</div>
+
+</body>
+</html>
