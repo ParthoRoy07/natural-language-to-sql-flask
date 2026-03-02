@@ -4,6 +4,12 @@ A simple web application that converts natural language queries into SQL command
 
 ---
 
+## 📸 Application Preview
+
+![App Screenshot](screenshot.png)
+
+---
+
 ## 🚀 Features
 
 - Rule-based Natural Language to SQL conversion
